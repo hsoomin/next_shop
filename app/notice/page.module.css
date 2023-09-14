@@ -1,0 +1,18 @@
+.notice{padding: 20rem 5rem 10rem 25rem;}
+.notice h4{padding-bottom: 1rem; border-bottom: 1px solid #ccc; text-align: center; font-size: 4rem;}
+.notice table{ width: 100%; border-collapse:collapse; margin-top: 3rem; margin-bottom: 3rem;}
+.notice table thead tr th{border: 1px solid #ddd; text-align: center; padding: 1rem 0; font-size: 1.5rem;}
+.notice table thead tr th:nth-child(1){width: 5%;}
+.notice table thead tr th:nth-child(2){width: 75%;}
+.notice table thead tr th:nth-child(3){width: 10%;}
+.notice table thead tr th:nth-child(4){width: 5%;}
+.notice table thead tr th:nth-child(5){width: 5%;}
+.notice table thead tr td:nth-child(2){text-align: left;}
+.noticeBtn{font-size: 1.5rem; float: right; background: #f0f0f0; border: none; padding: 1rem 1.5rem;}
+
+
+/* notice */
+.noticeItem {opacity: 1; transition:  all 1s;}
+.noticeItem td{text-align: center; border: 1px solid #ddd; padding: 1rem; font-size: 1.4rem;}
+.noticeItem td button{border: none; background: none; font-size: 1.5rem;}
+.noticeItem .noticeTitle{text-align: left;}

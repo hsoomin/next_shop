@@ -1,0 +1,13 @@
+.detail{padding: 20rem 5rem 10rem 25rem;}
+.detail h3{border-bottom: 1px solid #ddd; padding-bottom: 0.5rem; font-size: 4rem; text-align: center;}
+.detail .detailWrap{margin-top: 3rem; border: 1px solid #ddd; padding: 5rem; min-height: 50rem}
+.detail .detailWrap .text{margin-top: 3rem;}
+.detail .detailWrap .text .title{padding-bottom: 0.5rem; border-bottom: 1px solid #ddd;}
+.detail .detailWrap .text .content{margin-top: 1rem;}
+
+/* Comment.js */
+.comment{padding: 2rem 0;}
+.comment .commentWrap{margin-bottom: 2rem;}
+.comment .commentWrap .commentP{border-bottom: 1px solid #ddd; padding: 1rem;}
+.comment .input{width: 80%; padding: 1rem;  border: 1px solid transparent; border-bottom: 1px solid #aaa ; margin-right: 1rem;}
+.comment .button{padding: 1rem 2rem; border: none;}
