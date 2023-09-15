@@ -28,7 +28,7 @@ export default async function Detail(props){
                         <span className={styles.span}>FREE</span>
                     </p>
                     <p className={styles.description}>{result.description}</p>
-                    <button className={styles.cart}>Add to Cart</button>
+                    {/* <button className={styles.cart}>Add to Cart</button> */}
                     <Cart result={result}/>
                 </div>
             </div>

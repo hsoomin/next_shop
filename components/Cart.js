@@ -9,9 +9,11 @@ export default function Cart({result}){
 
     return(
         <div className="cart">
-            <span className="minus" onClick={()=>{setCount(count-1)}}>-</span>
-            <span className="number">{count}</span>
-            <span className="plus" onClick={()=>{setCount(count+1)}}>+</span>
+            <div className="cartCount">
+                <span className="minus" onClick={()=>{setCount(count-1)}}>-</span>
+                <span className="number">{count}</span>
+                <span className="plus" onClick={()=>{setCount(count+1)}}>+</span>
+            </div>
             <Link href="/cart">
                 <button 
                 className="cartBtn" 
