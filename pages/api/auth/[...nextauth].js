@@ -2,6 +2,7 @@ import { connectDB } from "@/util/database";
 import { MongoDBAdapter } from "@next-auth/mongodb-adapter";
 import NextAuth from "next-auth";
 import GithubProvider from "next-auth/providers/github";
+import NaverProvider from "next-auth/providers/naver";
 import CredentialsProvider from "next-auth/providers/credentials";
 import bcrypt from "bcrypt";
 
@@ -10,6 +11,10 @@ export const authOptions = {
         GithubProvider({
             clientId:'eb5c8a840a9e6440666a',
             clientSecret:'3d5a11fc64c0edf6f36bdca1e89fa62063c62e7d'
+        }),
+        NaverProvider({
+            clientId:'B_Va3r0JTa53p4yUS5PA',
+            clientSecret:'E38Ed_5vE4'
         }),
         CredentialsProvider({
         //1. 로그인페이지 폼 자동생성해주는 코드

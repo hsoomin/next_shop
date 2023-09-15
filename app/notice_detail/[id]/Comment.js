@@ -18,25 +18,28 @@ export default function Comment(props) {
 
     return (
         <div className={styles.comment}>
+            <h4 className={styles.commentTitle}>comment</h4>
             <div className={styles.commentWrap}>{data.length > 0 ? data.map((item, i) => <p key={i} className={styles.commentP}>{item.content}</p>) : '로딩중'}</div>
-            <input
-            className={styles.input}
-            onChange={(e) => {
-            setComment(e.target.value)
-            }}
-            value={comment}
-            />
-            <button
-            className={styles.button}
-            onClick={() => {
-            // console.log(comment)
-            fetch('/api/comment/new', { method: 'POST', body: JSON.stringify({ comment: comment, _id: props._id }) })
-            setRefrash(!refrash)
-            setComment("")
-            }}
-            >
-                입력
-            </button>
+            <div className={styles.commentInput}>
+                <input
+                className={styles.input}
+                onChange={(e) => {
+                setComment(e.target.value)
+                }}
+                value={comment}
+                />
+                <button
+                className={styles.button}
+                onClick={() => {
+                // console.log(comment)
+                fetch('/api/comment/new', { method: 'POST', body: JSON.stringify({ comment: comment, _id: props._id }) })
+                setRefrash(!refrash)
+                setComment("")
+                }}
+                >
+                    입력
+                </button>
+            </div>
         </div>
     )
 }

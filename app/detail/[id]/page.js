@@ -1,6 +1,7 @@
 import {connectDB} from '@/util/database'
 import styles from './page.module.css'
 import { ObjectId } from 'mongodb'
+import Cart from '@/components/Cart'
 
 export default async function Detail(props){
     const client = await connectDB
@@ -28,6 +29,7 @@ export default async function Detail(props){
                     </p>
                     <p className={styles.description}>{result.description}</p>
                     <button className={styles.cart}>Add to Cart</button>
+                    <Cart result={result}/>
                 </div>
             </div>
         </div>

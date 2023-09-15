@@ -10,7 +10,7 @@ export default async function Edit(props){
 
     return(
         <div className={styles.writeWrap}>
-            <h4>글 수정하기</h4>
+            <h4>글 수정</h4>
             <form action="/api/post/edit" method='POST'>
                 <input type="text" name="title" defaultValue={result.title}/>
                 <textarea name="content" defaultValue={result.content}></textarea>

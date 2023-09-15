@@ -35,6 +35,7 @@ export default async function RootLayout({ children }) {
                 <meta name='Description' content='next.js를 사용하여 쇼핑몰 만들기' />
                 <meta name='Author-Date' content='23.09.14' />
                 <meta name='Copyright' content='COPYRIGHT &copy; SOOMIN ALL RIGHT RESERVED.' />
+                <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap" rel="stylesheet"></link>
             </Head>
             <body>
                 <div className='top-nav'>

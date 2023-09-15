@@ -1,4 +1,4 @@
-.notice{padding: 20rem 5rem 10rem 25rem;}
+.notice{padding: 17rem 5rem 10rem 25rem; min-height: 80rem; }
 .notice h4{padding-bottom: 1rem; border-bottom: 1px solid #ccc; text-align: center; font-size: 4rem;}
 .notice table{ width: 100%; border-collapse:collapse; margin-top: 3rem; margin-bottom: 3rem;}
 .notice table thead tr th{border: 1px solid #ddd; text-align: center; padding: 1rem 0; font-size: 1.5rem;}
