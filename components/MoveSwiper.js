@@ -21,10 +21,11 @@ const MoveSwiper = () => {
             "--swiper-pagination-color": "#fffffe",
         }}
         >
-            <SwiperSlide><img src="/img/slide_01.jpg" alt="slide" /></SwiperSlide>
-            <SwiperSlide><img src="/img/slide_00.jpg" alt="slide" /></SwiperSlide>
-            <SwiperSlide><img src="/img/slide_02.png" alt="slide" /></SwiperSlide>
-            <SwiperSlide><img src="/img/slide_03.png" alt="slide" /></SwiperSlide>
+            <SwiperSlide><img src="/img/slide01.png" alt="slide" /></SwiperSlide>
+            <SwiperSlide><img src="/img/slide02.png" alt="slide" /></SwiperSlide>
+            <SwiperSlide><img src="/img/slide03.png" alt="slide" /></SwiperSlide>
+            <SwiperSlide><img src="/img/slide04.png" alt="slide" /></SwiperSlide>
+            <SwiperSlide><img src="/img/slide05.png" alt="slide" /></SwiperSlide>
         </Swiper>
     );
 };

@@ -1,5 +1,5 @@
 .detail{padding: 17rem 5rem 10rem 25rem; }
-.detailWrap{display: flex;}
+.detailWrap{display: flex; padding-bottom: 20px;}
 .imgWrap{width: 50%;}
 .imgWrap img{width: 100%;}
 
@@ -14,3 +14,6 @@
 .description{border-top: 1px solid #ddd; font-size: 2rem;padding-top: 2rem; padding-bottom: 5rem;}
 /* .cart{border: 1px solid #000; padding:1.5rem 2rem; background: none;}
 .cart:hover{background: #141456;color: #fff; border: none;} */
+
+.detailImg{margin: 0 auto; padding-top: 50px; border-top: 1px solid #000;}
+.detailImg img{width: 100%;}

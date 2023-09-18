@@ -62,10 +62,8 @@ a {color: inherit; text-decoration: none;}
     }
 }
 
-
-
 .new-arrival{
-    margin: 10rem 10rem 10rem 15rem;
+    margin: 10rem 10rem 10rem 25rem;
     h2{
         text-align: center; 
         margin-bottom: 10px; 
@@ -89,24 +87,16 @@ a {color: inherit; text-decoration: none;}
         .card-box{
             padding: 1rem 0;
             .title{
-                height: 3rem;
+                height: 4.5rem;
                 font-size: 2rem; 
                 margin-bottom: 2rem; 
             }
             .price{
                 font-size: 1.4rem; 
-                // margin-bottom: 2rem;
             }
-            /* .description{
-                font-size: 1.4rem; 
-                line-height: 180%; 
-                color:  #777;
-            } */
         }
     }
 }
-
-
 
 /* 메인 스와이퍼 */
 .mySwiper{
@@ -114,8 +104,6 @@ a {color: inherit; text-decoration: none;}
     height: 100vh;
     img{width: 100%;}
 }
-
-
 
 
 .footer{
@@ -131,7 +119,7 @@ a {color: inherit; text-decoration: none;}
         justify-content: space-between;
         .footer-left{
             display: flex;
-            gap: 0 3rem;
+            gap: 0 4rem;
             li{
                 h4{
                     font-size: 1.5rem;
@@ -309,14 +297,10 @@ a {color: inherit; text-decoration: none;}
         border: 1px solid #000;
         position: relative;
         .minus,.plus{
-            // display: inline-block;
             line-height: 4.8rem;
             text-align: center;
             cursor: pointer;
             font-size: 2rem;
-            // position: absolute;
-            // top: 50%;
-            // transform: translateY(-50%)
         }
         .number{
             text-align: center;
